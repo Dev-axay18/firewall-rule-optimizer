@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Firewall--Optimizer-AI--Powered-ff0050?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/github/license/your-username/firewall-optimizer?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/github/license/Dev-axay18/firewall-rule-optimizer?style=for-the-badge&color=blue" />
   <img src="https://img.shields.io/badge/Built_with-Streamlit-orange?style=for-the-badge&logo=streamlit" />
 </p>
 <p align="center">
