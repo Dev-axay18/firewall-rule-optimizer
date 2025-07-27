@@ -5,6 +5,10 @@
   <img src="https://img.shields.io/github/license/your-username/firewall-optimizer?style=for-the-badge&color=blue" />
   <img src="https://img.shields.io/badge/Built_with-Streamlit-orange?style=for-the-badge&logo=streamlit" />
 </p>
+<p align="center">
+  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/AI-Powered%20Firewall%20Rule%20Optimizer.png?raw=true" alt="AI-Powered Firewall Rule Optimizer Banner" width="100%" />
+</p>
+
 
 # 🔥 AI-Powered Firewall Rule Optimizer and Visualizer
 
@@ -131,18 +135,22 @@ Our enhanced CLI provides a beautiful terminal experience with:
 ### 📷 Screenshot Samples
 
 <p align="center">
-  <img src="https://github.com/your-username/firewall-optimizer/assets/web-overview.png" width="600">
+  <img src="[https://github.com/your-username/firewall-optimizer/assets/web-overview.png](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_5_2025-07-27_19-39-52.jpg?raw=true)" width="600">
   <br><em>🧠 AI-Powered Analysis Dashboard</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/your-username/firewall-optimizer/assets/pie-chart.png" width="600">
+  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_6_2025-07-27_19-39-52.jpg?raw=true" width="600">
   <br><em>📈 Real-time Visualizations of Issues and Priorities</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/your-username/firewall-optimizer/assets/flow-diagram.png" width="600">
+  <img src="[https://github.com/your-username/firewall-optimizer/assets/flow-diagram.png](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_7_2025-07-27_19-39-52.jpg?raw=true)" width="600">
   <br><em>🌐 Rule Flow Diagrams & Dependency Mapping</em>
+</p>
+<p align="center">
+  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_8_2025-07-27_19-39-52.jpg?raw=true" width="600">
+  <br><em>🌐 Visualization </em>
 </p>
 
 --- 
