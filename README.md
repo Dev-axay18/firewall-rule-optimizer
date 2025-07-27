@@ -254,7 +254,7 @@ Our CLI features beautiful terminal graphics with:
 - 🔥 **Emoji-rich output** for better readability
 - 📈 **Visual data representation** right in your terminal
 
-For complete command documentation, see **[COMMANDS.md](COMMANDS.md)** - a comprehensive guide with:
+For complete command documentation, see **[COMMANDS.md](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/COMMANDS.md)** - a comprehensive guide with:
 - 📋 All available commands and options
 - 💡 Usage examples and best practices  
 - 🎨 CLI features and visual elements
@@ -351,7 +351,7 @@ dashboard.show()
 ## � Documentation & Help
 
 ### 📖 Complete Command Reference
-- **[COMMANDS.md](COMMANDS.md)** - Comprehensive command documentation with examples
+- **[COMMANDS.md](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/COMMANDS.md)** - Comprehensive command documentation with examples
 - Use `python main.py --help` for general help
 - Use `python main.py <command> --help` for command-specific help
 
