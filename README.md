@@ -128,6 +128,12 @@ Our enhanced CLI provides a beautiful terminal experience with:
   Inefficient Order....... ████████████████████████         11
   Security Risk........... ████                              2
 ```
+## Console Output
+<p align="center">
+  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/removed-background%20(1).png?raw=true" width="600">
+  <br><em>🧠 Console Output </em>
+</p>
+
 ## 🌐 Web Dashboard Preview
 
 > 📊 Run in your browser: `python main.py webapp`
@@ -285,21 +291,22 @@ python main.py optimize --input system --apply --backup
 
 #### Create Visualizations
 
+### Create comprehensive visualization report
 ```bash
-# Create comprehensive visualization report
 python main.py visualize --input rules.txt --output ./reports
-
-# Create specific visualization types
+```
+### Create specific visualization types
+```bash
 python main.py visualize --input rules.txt --output ./reports --type flow
 ```
 
 #### Backup and Restore
-
+### Create backup
 ```bash
-# Create backup
 python main.py backup --input system --description "Before optimization"
-
-# Restore from backup
+```
+### Restore from backup
+```bash
 python main.py restore --backup backup_20250126_143022.json --apply
 ```
 
@@ -578,10 +585,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 **Email**: support@firewalloptimizer.com
-- 🐛 **Issues**: [GitHub Issues](https://github.com/your-username/firewall-optimizer/issues)
-- 📖 **Documentation**: [Wiki](https://github.com/your-username/firewall-optimizer/wiki)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/your-username/firewall-optimizer/discussions)
+- 📧 **Email**: kaleakshay8856@gmail.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/Dev-axay18/firewall-rule-optimizer/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/Dev-axay18/firewall-rule-optimizer/discussions)
 
 ---
 
