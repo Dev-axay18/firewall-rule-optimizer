@@ -130,7 +130,7 @@ Our enhanced CLI provides a beautiful terminal experience with:
 ```
 ## Console Output
 <p align="center">
-  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/removed-background%20(1).png?raw=true" width="600">
+  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/removed-background%20(1).png?raw=true" width="750">
   <br><em>🧠 Console Output </em>
 </p>
 
@@ -141,21 +141,21 @@ Our enhanced CLI provides a beautiful terminal experience with:
 ### 📷 Screenshot Samples
 
 <p align="center">
-  <img src="[https://github.com/your-username/firewall-optimizer/assets/web-overview.png](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_5_2025-07-27_19-39-52.jpg?raw=true)" width="600">
+  <img src="[https://github.com/your-username/firewall-optimizer/assets/web-overview.png](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_5_2025-07-27_19-39-52.jpg?raw=true)" width="750">
   <br><em>🧠 AI-Powered Analysis Dashboard</em>
 </p>
 
 <p align="center">
-  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_6_2025-07-27_19-39-52.jpg?raw=true" width="600">
+  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_6_2025-07-27_19-39-52.jpg?raw=true" width="750">
   <br><em>📈 Real-time Visualizations of Issues and Priorities</em>
 </p>
 
 <p align="center">
-  <img src="[https://github.com/your-username/firewall-optimizer/assets/flow-diagram.png](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_7_2025-07-27_19-39-52.jpg?raw=true)" width="600">
+  <img src="[https://github.com/your-username/firewall-optimizer/assets/flow-diagram.png](https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_7_2025-07-27_19-39-52.jpg?raw=true)" width="750">
   <br><em>🌐 Rule Flow Diagrams & Dependency Mapping</em>
 </p>
 <p align="center">
-  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_8_2025-07-27_19-39-52.jpg?raw=true" width="600">
+  <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/photo_8_2025-07-27_19-39-52.jpg?raw=true" width="750">
   <br><em>🌐 Visualization </em>
 </p>
 
