@@ -1,3 +1,11 @@
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Firewall--Optimizer-AI--Powered-ff0050?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/github/license/your-username/firewall-optimizer?style=for-the-badge&color=blue" />
+  <img src="https://img.shields.io/badge/Built_with-Streamlit-orange?style=for-the-badge&logo=streamlit" />
+</p>
+
 # 🔥 AI-Powered Firewall Rule Optimizer and Visualizer
 
 A comprehensive Python-based tool that analyzes Linux `iptables` firewall rules, detects redundant or conflicting rules, suggests optimization strategies, and provides interactive visualizations with beautiful CLI graphics for better security management.
@@ -60,17 +68,20 @@ pip install -r requirements.txt
 
 ### 🎯 Instant Usage (No Configuration Required!)
 
+### 🔍 Analyze sample firewall rules with beautiful CLI graphics
 ```bash
-# 🔍 Analyze sample firewall rules with beautiful CLI graphics
 python main.py analyze
-
-# ⚡ Generate optimization recommendations with visual charts  
+```
+### ⚡ Generate optimization recommendations with visual charts  
+```bash
 python main.py optimize
-
-# 📊 Create interactive visualizations
+```
+### 📊 Create interactive visualizations
+```bash
 python main.py visualize
-
-# 🌐 Launch web interface
+```
+### 🌐 Launch web interface
+```bash
 python main.py webapp
 ```
 
@@ -113,21 +124,46 @@ Our enhanced CLI provides a beautiful terminal experience with:
   Inefficient Order....... ████████████████████████         11
   Security Risk........... ████                              2
 ```
+## 🌐 Web Dashboard Preview
+
+> 📊 Run in your browser: `python main.py webapp`
+
+### 📷 Screenshot Samples
+
+<p align="center">
+  <img src="https://github.com/your-username/firewall-optimizer/assets/web-overview.png" width="600">
+  <br><em>🧠 AI-Powered Analysis Dashboard</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/your-username/firewall-optimizer/assets/pie-chart.png" width="600">
+  <br><em>📈 Real-time Visualizations of Issues and Priorities</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/your-username/firewall-optimizer/assets/flow-diagram.png" width="600">
+  <br><em>🌐 Rule Flow Diagrams & Dependency Mapping</em>
+</p>
+
+--- 
 
 ## 📋 Complete Command Reference
 
 ### 🔍 Analysis Commands
+### Basic analysis with beautiful graphics
 ```bash
-# Basic analysis with beautiful graphics
 python main.py analyze
-
-# Analyze specific file
+```
+### Analyze specific file
+```bash
 python main.py analyze --input /path/to/iptables-rules.txt
-
-# Analyze current system rules (Linux)
+```
+### Analyze current system rules (Linux)
+```bash
 python main.py analyze --input system
-
-# Save results to file
+```
+### Save results to file
+```bash
 python main.py analyze --output report.json --format json
 ```
 
@@ -167,11 +203,12 @@ python main.py webapp --port 8080 --host 0.0.0.0
 ```
 
 ### 💾 Backup & Restore
+#### Create backup
 ```bash
-# Create backup
 python main.py backup --input system --description "Before optimization"
-
-# Restore from backup
+```
+### Restore from backup
+```bash
 python main.py restore --backup /path/to/backup.json
 ```
 
