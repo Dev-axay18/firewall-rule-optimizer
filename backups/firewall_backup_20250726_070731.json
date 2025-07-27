@@ -1,0 +1,644 @@
+{
+  "timestamp": "20250726_070731",
+  "description": "",
+  "config_hash": "cf482d6555215d14",
+  "tables": {
+    "filter": {
+      "INPUT": [
+        {
+          "raw_rule": "-A INPUT -i lo -j ACCEPT",
+          "line_number": 10,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": null,
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": "lo",
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "i": "lo",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT",
+          "line_number": 11,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": null,
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": null,
+          "state": "RELATED,ESTABLISHED",
+          "module": "conntrack",
+          "parameters": {
+            "m": "conntrack",
+            "ctstate": "RELATED",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 22 -j ACCEPT",
+          "line_number": 14,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "22",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "22",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 22 -s 10.0.0.0/8 -j ACCEPT  # Specific subnet",
+          "line_number": 15,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": "10.0.0.0/8",
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "22",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "22",
+            "s": "10.0.0.0/8",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 22 -s 10.0.0.0/8 -j ACCEPT  # Redundant",
+          "line_number": 16,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": "10.0.0.0/8",
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "22",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "22",
+            "s": "10.0.0.0/8",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 80 -j ACCEPT",
+          "line_number": 19,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "80",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "80",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 443 -j ACCEPT",
+          "line_number": 20,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "443",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "443",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 80 -s 172.16.0.0/12 -j ACCEPT  # Specific allow",
+          "line_number": 21,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": "172.16.0.0/12",
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "80",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "80",
+            "s": "172.16.0.0/12",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 443 -j ACCEPT  # Duplicate rule",
+          "line_number": 22,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "443",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "443",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p icmp --icmp-type echo-request -j DROP",
+          "line_number": 25,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "DROP",
+          "protocol": "icmp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "icmp",
+            "icmp-type": "echo-request",
+            "j": "DROP"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p icmp --icmp-type echo-reply -j DROP",
+          "line_number": 26,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "DROP",
+          "protocol": "icmp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "icmp",
+            "icmp-type": "echo-reply",
+            "j": "DROP"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 25 -j DROP",
+          "line_number": 29,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "DROP",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "25",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "25",
+            "j": "DROP"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 25 -s 192.168.2.0/24 -j ACCEPT  # Inefficient order: drop before accept",
+          "line_number": 30,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": "192.168.2.0/24",
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "25",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "25",
+            "s": "192.168.2.0/24",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p udp --dport 53 -j ACCEPT",
+          "line_number": 33,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "udp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "53",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "udp",
+            "dport": "53",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 53 -j ACCEPT",
+          "line_number": 34,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "53",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "53",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 21 -j ACCEPT",
+          "line_number": 37,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "21",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "21",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 21 -s 192.168.100.0/24 -j DROP  # Conflicts with above",
+          "line_number": 38,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "DROP",
+          "protocol": "tcp",
+          "source_ip": "192.168.100.0/24",
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "21",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "21",
+            "s": "192.168.100.0/24",
+            "j": "DROP"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 23 -j LOG --log-prefix \"Telnet attempt: \"",
+          "line_number": 41,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "LOG",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "23",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "23",
+            "j": "LOG",
+            "log-prefix": "\"Telnet attempt: \""
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -p tcp --dport 23 -j DROP",
+          "line_number": 42,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "DROP",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "23",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "23",
+            "j": "DROP"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -j DROP",
+          "line_number": 45,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "DROP",
+          "protocol": null,
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "j": "DROP"
+          }
+        },
+        {
+          "raw_rule": "-A INPUT -j DATABASE_ACCESS",
+          "line_number": 49,
+          "table": "filter",
+          "chain": "INPUT",
+          "target": "DATABASE_ACCESS",
+          "protocol": null,
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "j": "DATABASE_ACCESS"
+          }
+        }
+      ],
+      "FORWARD": [],
+      "OUTPUT": [],
+      "DATABASE_ACCESS": [
+        {
+          "raw_rule": "-A DATABASE_ACCESS -p tcp --dport 3306 -s 192.168.1.50 -j ACCEPT",
+          "line_number": 50,
+          "table": "filter",
+          "chain": "DATABASE_ACCESS",
+          "target": "ACCEPT",
+          "protocol": "tcp",
+          "source_ip": "192.168.1.50",
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "3306",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "3306",
+            "s": "192.168.1.50",
+            "j": "ACCEPT"
+          }
+        },
+        {
+          "raw_rule": "-A DATABASE_ACCESS -p tcp --dport 3306 -s 0.0.0.0/0 -j DROP",
+          "line_number": 51,
+          "table": "filter",
+          "chain": "DATABASE_ACCESS",
+          "target": "DROP",
+          "protocol": "tcp",
+          "source_ip": "0.0.0.0/0",
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "3306",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "3306",
+            "s": "0.0.0.0/0",
+            "j": "DROP"
+          }
+        },
+        {
+          "raw_rule": "-A DATABASE_ACCESS -j RETURN",
+          "line_number": 52,
+          "table": "filter",
+          "chain": "DATABASE_ACCESS",
+          "target": "RETURN",
+          "protocol": null,
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "j": "RETURN"
+          }
+        }
+      ]
+    },
+    "nat": {
+      "PREROUTING": [
+        {
+          "raw_rule": "-A PREROUTING -p tcp --dport 8000 -j REDIRECT --to-port 80",
+          "line_number": 66,
+          "table": "nat",
+          "chain": "PREROUTING",
+          "target": "REDIRECT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "8000",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "8000",
+            "j": "REDIRECT",
+            "to-port": "80"
+          }
+        },
+        {
+          "raw_rule": "-A PREROUTING -p tcp --dport 8000 -j REDIRECT --to-port 80",
+          "line_number": 69,
+          "table": "nat",
+          "chain": "PREROUTING",
+          "target": "REDIRECT",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "8000",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "8000",
+            "j": "REDIRECT",
+            "to-port": "80"
+          }
+        }
+      ],
+      "INPUT": [],
+      "OUTPUT": [],
+      "POSTROUTING": [
+        {
+          "raw_rule": "-A POSTROUTING -o eth0 -j MASQUERADE",
+          "line_number": 63,
+          "table": "nat",
+          "chain": "POSTROUTING",
+          "target": "MASQUERADE",
+          "protocol": null,
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": "eth0",
+          "state": null,
+          "module": null,
+          "parameters": {
+            "o": "eth0",
+            "j": "MASQUERADE"
+          }
+        }
+      ]
+    },
+    "mangle": {
+      "PREROUTING": [
+        {
+          "raw_rule": "-A PREROUTING -p tcp --dport 80 -j TOS --set-tos 0x10",
+          "line_number": 81,
+          "table": "mangle",
+          "chain": "PREROUTING",
+          "target": "TOS",
+          "protocol": "tcp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": "80",
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "tcp",
+            "dport": "80",
+            "j": "TOS",
+            "set-tos": "0x10"
+          }
+        }
+      ],
+      "INPUT": [],
+      "FORWARD": [],
+      "OUTPUT": [],
+      "POSTROUTING": [
+        {
+          "raw_rule": "-A POSTROUTING -p icmp -j TTL --ttl-set 64",
+          "line_number": 82,
+          "table": "mangle",
+          "chain": "POSTROUTING",
+          "target": "TTL",
+          "protocol": "icmp",
+          "source_ip": null,
+          "destination_ip": null,
+          "source_port": null,
+          "destination_port": null,
+          "interface_in": null,
+          "interface_out": null,
+          "state": null,
+          "module": null,
+          "parameters": {
+            "p": "icmp",
+            "j": "TTL",
+            "ttl-set": "64"
+          }
+        }
+      ]
+    }
+  }
+}

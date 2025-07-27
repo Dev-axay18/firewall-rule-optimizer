@@ -1,0 +1,52 @@
+2025-07-26 06:38:48,414 - __main__ - ERROR - Command failed: type object 'Colors' has no attribute 'BRIGHT_WHITE'
+2025-07-26 06:48:43,010 - __main__ - ERROR - Command failed: 'Bar' object is not callable
+2025-07-26 09:24:38,624 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-26 09:24:38,625 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-26 09:24:38,625 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-26 09:24:38,635 - __main__ - ERROR - Command failed: 'CLIGraphics' object has no attribute 'print_cli_chart_summary'
+2025-07-26 09:27:07,842 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-26 09:27:07,844 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-26 09:27:07,844 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-26 09:27:07,859 - __main__ - ERROR - Command failed: type object 'Colors' has no attribute 'rule_number'
+2025-07-26 09:33:00,202 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-26 09:33:00,203 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-26 09:33:00,204 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-26 09:35:50,960 - __main__ - ERROR - Command failed: 'int' object has no attribute 'upper'
+2025-07-26 09:37:35,479 - __main__ - ERROR - Command failed: type object 'Colors' has no attribute 'BRIGHT_YELLOW'
+2025-07-27 19:18:26,408 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:18:26,409 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:19:21,175 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:19:21,175 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:19:21,176 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:19:21,176 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:20:20,122 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:20:20,123 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-27 19:22:40,730 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:22:40,730 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:22:40,730 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:22:40,731 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:22:40,730 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:22:40,732 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:22:40,731 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:22:40,732 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:01,388 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:45:01,389 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:45:01,388 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:45:01,389 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:01,389 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:45:01,389 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:01,389 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:01,389 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:01,390 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-27 19:45:01,391 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-27 19:45:01,390 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-27 19:45:01,391 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-27 19:45:09,337 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:45:09,337 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:45:09,337 - optimizer.visualizer - WARNING - Matplotlib not available. Some visualizations will be disabled.
+2025-07-27 19:45:09,346 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:09,346 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:09,346 - optimizer.visualizer - WARNING - Plotly not available. Interactive visualizations will be disabled.
+2025-07-27 19:45:09,347 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-27 19:45:09,347 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
+2025-07-27 19:45:09,347 - optimizer.visualizer - WARNING - NetworkX not available. Graph visualizations will be disabled.
