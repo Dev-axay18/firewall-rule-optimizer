@@ -587,7 +587,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - 📧 **Email**: kaleakshay8856@gmail.com
 - 🐛 **Issues**: [GitHub Issues](https://github.com/Dev-axay18/firewall-rule-optimizer/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/Dev-axay18/firewall-rule-optimizer/discussions)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/Dev-axay18/firewall-rule-optimizer/discussions/1)
 
 ---
 
