@@ -8,7 +8,11 @@
 <p align="center">
   <img src="https://github.com/Dev-axay18/firewall-rule-optimizer/blob/main/assets/AI-Powered%20Firewall%20Rule%20Optimizer.png?raw=true" alt="AI-Powered Firewall Rule Optimizer Banner" width="100%" />
 </p>
-
+<p align="center">
+  <a href="https://firewall-optimizer-epzozfugb5psumixopcmma.streamlit.app/" target="_blank">
+    <img src="https://img.shields.io/badge/ Live_Demo-%2300C853?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+  </a>
+</p>
 
 # 🔥 AI-Powered Firewall Rule Optimizer and Visualizer
 
